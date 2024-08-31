@@ -10,7 +10,7 @@ pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
 _commit="1270cf0d792316efcfb12e98b60424003adf8c87"
 pkgrel=1
 _pkgdesc=(
-  "Manages power."
+  "Retrieve Italian schools data from MIUR."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
