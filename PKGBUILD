@@ -3,8 +3,8 @@
 # Maintainer: Truocolo <truocolo@aol.com>
 # Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 
-_offline="true"
-_git="true"
+_offline="false"
+_git="false"
 pkgname=italian-schools-data-fetcher
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
 _commit="1270cf0d792316efcfb12e98b60424003adf8c87"
