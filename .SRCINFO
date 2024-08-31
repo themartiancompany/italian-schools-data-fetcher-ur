@@ -1,0 +1,16 @@
+pkgbase = italian-schools-data-fetcher
+	pkgdesc = Manages power.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = file:///data/data/com.termux/files/home/italian-schools-data-fetcher
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = git
+	depends = bash
+	source = italian-schools-data-fetcher-1270cf0d792316efcfb12e98b60424003adf8c87::git+file:///data/data/com.termux/files/home/italian-schools-data-fetcher#commit=1270cf0d792316efcfb12e98b60424003adf8c87?signed
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = SKIP
+
+pkgname = italian-schools-data-fetcher
