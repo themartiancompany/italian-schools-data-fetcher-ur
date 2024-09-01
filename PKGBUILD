@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=italian-schools-data-fetcher
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="1270cf0d792316efcfb12e98b60424003adf8c87"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+_commit="e18d36d2ad2742dea9cfff91a0a42b82dd5303c1"
 pkgrel=1
 _pkgdesc=(
   "Retrieve Italian schools data from MIUR."
@@ -23,7 +23,7 @@ license=(
   AGPL3
 )
 depends=(
-  "bash"
+  "libcrash-bash"
 )
 _os="$( \
   uname \
@@ -72,7 +72,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="573ecbc080181eef4c2fbb5191f6d12cb5e6c10f991224ed2ca37c3a29c06511"
+    _sum="d4394c28cfcf7f49d38df51966228db4c8ee6e59f05b049aa677cc1da03aa1ab"
   fi && \
     source+=(
       "${_tar}"

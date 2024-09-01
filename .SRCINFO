@@ -1,15 +1,15 @@
 pkgbase = italian-schools-data-fetcher
 	pkgdesc = Retrieve Italian schools data from MIUR.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/italian-schools-data-fetcher
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
 	makedepends = make
-	depends = bash
-	source = italian-schools-data-fetcher-1270cf0d792316efcfb12e98b60424003adf8c87.zip::https://github.com/themartiancompany/italian-schools-data-fetcher/archive/1270cf0d792316efcfb12e98b60424003adf8c87.zip
+	depends = libcrash-bash
+	source = italian-schools-data-fetcher-e18d36d2ad2742dea9cfff91a0a42b82dd5303c1.zip::https://github.com/themartiancompany/italian-schools-data-fetcher/archive/e18d36d2ad2742dea9cfff91a0a42b82dd5303c1.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 573ecbc080181eef4c2fbb5191f6d12cb5e6c10f991224ed2ca37c3a29c06511
+	sha256sums = d4394c28cfcf7f49d38df51966228db4c8ee6e59f05b049aa677cc1da03aa1ab
 
 pkgname = italian-schools-data-fetcher
